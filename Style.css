@@ -1,0 +1,137 @@
+body{
+    background-color:aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+main{
+    width: 1000px;
+    height: 1300px;
+    background-color:aliceblue;
+    display: grid;  
+    grid-template-rows: 35% 10% 55% 10%;
+    margin: auto;
+}
+header{
+    text-align: center;
+}
+nav{    
+    margin: auto;    
+}
+.link{
+    width: 1000px;
+    height: 100px;
+    display: grid;
+    grid-template-columns: 14% 14% 14% 14% 14% 15% 15%;
+}
+section{
+   display: grid;
+   grid-template-columns: 45% 55%;
+   align-content: space-between; 
+}
+aside{
+    background-color: aliceblue;
+    margin: auto;
+}
+article{
+    background-color: aliceblue;
+}
+
+footer{
+    width: 1000px;
+}
+.hayvanlar{
+    width: 1000px;
+    height: 800px;
+    display: grid;
+    grid-template-rows: 25% 25% 25% 25%;
+    grid-template-columns: 33% 34% 33%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.resim{  
+    margin-left: auto;
+    margin-right: auto;
+    align-content: space-between;
+    justify-content: space-between;
+    border-radius:  40px/10px;  
+}
+.resim :hover{
+    box-shadow: 10px 10px 7px #333;
+}
+#galeri{
+    width: 1000px;
+    height: 800px;
+    display: grid;
+    grid-template-rows: 45% 55%;
+    margin: auto;
+}
+#galeri article{
+    text-align: center;
+   
+}
+*{  /*sıfırlama selector*/
+    margin: 0px;
+}
+#liste{
+    list-style-type: circle;
+}
+.aciklama{
+    height: 315px;
+    width: 1000px;
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+.aciklama aside{
+    text-align: center;
+}
+.yazı{
+    width: 115px;
+    text-align: center;
+    background-color:aqua;
+
+
+}
+.oneri{
+    text-align: center;
+    align-items: center;
+    margin-left:auto; 
+    margin-right:auto;
+    width: 300px;
+}
+#wgtmsr{
+    text-align: center;
+    width:300px;   
+    height: 25px;   
+}
+#giris{
+    text-align: left;
+}
+
+  .ana, a:visited{
+    background-color: #80c3ff;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 205px;
+  }
+  /* .ana :hover{
+    background-color: red;
+  } */
+
+  h4 {
+    color: black;
+  }
+
+  .magaza{
+      width: 1000px;
+      height: 900px;
+      display: grid;
+      grid-template-rows: 33% 34% 33%;
+      grid-template-columns: 33% 34% 33%;
+      margin-left: auto;
+      margin-right: auto;
+      align-content: space-between;
+      justify-content: space-between;
+      border-radius:  40px/10px;  
+  }
